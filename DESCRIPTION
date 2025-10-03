@@ -1,0 +1,28 @@
+Package: amsSim
+Type: Package
+Title: Adaptive Multilevel Splitting
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Riccardo", "Gozzo",
+      email = "gozzoriccardo0@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Simulation and pricing routines for rare-event options using
+    Adaptive Multilevel Splitting and standard Monte Carlo under
+    Black–Scholes and Heston models. Core routines are implemented in C++
+    via RcppArmadillo with R wrappers.
+BugReports: Mettere la mia
+URL: Mettere la mia 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: Rcpp
+LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: C++17
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
