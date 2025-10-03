@@ -1,4 +1,5 @@
 # amsSim
+![R-CMD-check](https://github.com/RiccardoGozzo/amsSim/actions/workflows/R-CMD-check.yaml/badge.svg)
 
 Adaptive Multilevel Splitting (AMS) simulation tools for rare-event option pricing and path generation in continuous-time models.  
 Core routines are implemented in **C++ (Rcpp/RcppArmadillo)** for speed.
@@ -26,15 +27,15 @@ Install the development version from GitHub:
 
 # Option A: via remotes
 install.packages("remotes")
-remotes::install_github("riccardogozzo/amsSim")
+remotes::install_github("RiccardoGozzo/amsSim")
 
 # Option B: via devtools
 # install.packages("devtools")
-devtools::install_github("riccardogozzo/amsSim")
+devtools::install_github("RiccardoGozzo/amsSim")
 
 # Option C: via pak (fast)
 # install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
-pak::pak("riccardogozzo/amsSim")
+pak::pak("RiccardoGozzo/amsSim")
 
 ---
 
@@ -61,9 +62,6 @@ str(out)
   Returns simulated paths:
   model 1 (Black–Scholes): matrix/list with S of size n x (p - rim + 1)
   Heston models (2–4): list with S, V
-
-# function_AMS_Cpp(S_paths, option, funz, strike, r, sigma, time)
-  Builds the AMS score matrix from given paths.
 
 # AMS(model, type, funz, n, t, p, r, sigma, S0, rho = NULL, rim = 0L, v0 = 0.04, Lmax = 0, strike = 1, K = 1L)
   Runs the adaptive splitting loop and returns list(price, std).
