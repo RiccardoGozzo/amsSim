@@ -1,0 +1,9 @@
+url: https://riccardogozzo.github.io/amsSim
+template:
+  bootstrap: 5
+repo:
+  url:
+    home: https://github.com/RiccardoGozzo/amsSim
+    source: https://github.com/RiccardoGozzo/amsSim/blob/master/
+    issue: https://github.com/RiccardoGozzo/amsSim/issues
+  branch: master

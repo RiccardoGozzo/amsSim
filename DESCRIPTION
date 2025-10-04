@@ -14,7 +14,7 @@ Description: Simulation and pricing routines for rare-event options using
     Black-Scholes and Heston models. Core routines are implemented in C++
     via Rcpp and RcppArmadillo with lightweight R wrappers.
 License: MIT + file LICENSE
-URL: https://github.com/RiccardoGozzo/amsSim
+URL: https://github.com/RiccardoGozzo/amsSim, https://riccardogozzo.github.io/amsSim/
 BugReports: https://github.com/RiccardoGozzo/amsSim/issues
 Encoding: UTF-8
 Language: en-US
@@ -33,4 +33,3 @@ RoxygenNote: 7.3.3
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-
