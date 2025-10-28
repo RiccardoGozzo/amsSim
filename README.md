@@ -1,6 +1,7 @@
 # amsSim
-![R-CMD-check](https://github.com/RiccardoGozzo/amsSim/actions/workflows/R-CMD-check.yaml/badge.svg)
-
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/RiccardoGozzo/amsSim/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RiccardoGozzo/amsSim/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 Adaptive Multilevel Splitting (AMS) simulation tools for rare-event option pricing and path generation in continuous-time models.  
 Core routines are implemented in **C++ (Rcpp/RcppArmadillo)** for speed.
 
@@ -100,9 +101,8 @@ See the file [LICENSE](LICENSE) for details.
 
 If you use **amsSim** in your research, please cite it as follows:
 
-Gozzo, R. (2025). amsSim: Monte Carlo and Adaptive Multilevel Splitting Methods in R.
-R package version 0.1.0.
-Available at: https://github.com/riccardogozzo/amsSim
+Gozzo, R. (2025). Adaptive Multilevel Splitting: First Application to Rare-Event Derivative Pricing
+Available at: https://arxiv.org/html/2510.23461v1
 
 
 
